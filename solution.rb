@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  request.env["HTTP_ACCEPT_LANGUAGE"]
+  request.env['HTTP_USER_AGENT']
 end
